@@ -19,5 +19,9 @@ st.markdown(hide_menu, unsafe_allow_html=True)
 st.sidebar.markdown("<br>", unsafe_allow_html=True)
 st.sidebar.image(image , use_column_width=True, output_format='auto')
 st.sidebar.markdown("---")
+st.markdown("""
+    <h1 style='text-align: center;'>Digital Aggression Control</h1>
+    """, unsafe_allow_html=True)
+
 st.sidebar.markdown("<h1 style='text-align: center; font-size: 18px; color: #0080FF;'> Thrisha Reddy Mareddy </h1>", unsafe_allow_html=True)
 st.image(img1 , use_column_width=True)
